@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "E-mail Automation Crew"
+version = "0.1.0"
+description = "Email automation using LangGraph and CrewAI"
+authors = ["João Moura (Original)", "João Morossini (Adaptação)"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+crewai = "0.11.0"
+langgraph = "0.0.15"
+langchain-community = "0.0.14"
+python-dotenv = "1.0.0"
+google-search-results = "2.1.0"
+google-api-python-client = "2.114.0"
+google-auth-oauthlib = "1.2.0"
+google-auth-httplib2 = "0.2.0"
+beautifulsoup4 = "4.12.3"
+tavily-python = "0.3.1a"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
