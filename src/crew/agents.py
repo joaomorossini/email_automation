@@ -11,6 +11,7 @@ from .tools import CreateDraftTool
 
 azure_llm = AzureChatOpenAI(
     model="gpt-4o",
+	temperature=0
 )
 
 class EmailFilterAgents():
